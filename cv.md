@@ -7,7 +7,7 @@
 **Telegram:** @Marat10008
 
 ## About Me
-Fast learner, hard worker and team player who is proficient in an array of scripting languages and Web tools. I am reliable and dependable and often seek new responsibilities within a wide range of employment areas.
+Fast learner, hard worker and team player who is moderate in an array of scripting languages and Web tools. I am reliable and dependable and often seek new responsibilities within a wide range of employment areas.
 
 ## Skills
 * HTML5, CSS3
@@ -37,7 +37,7 @@ University: North Caucasus Federal University, Chemical Engineer Technologist
 
 
 ## Courses:
-[HTML Academy](https://htmlacademy.ru/)
+[HTML Academy](https://htmlacademy.ru/profile/id606021)
 
 ## English
 C1 (Advanced)
