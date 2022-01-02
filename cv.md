@@ -9,24 +9,36 @@
 ## About Me
 Fast learner, hard worker and team player who is proficient in an array of scripting languages and Web tools. I am reliable and dependable and often seek new responsibilities within a wide range of employment areas.
 
-Skills
-HTML
-CSS/SASS
-JavaScript (Basic)
-Git
-Code Example
-function sum(a, b) {
-return a + b;
-}
+## Skills
+* HTML5, CSS3
+* SASS
+* JavaScript (Basic)
+* PHP (Basic)
+* Oberon (Basic)
+* Git
+* Adobe Photoshop, Figma
 
-let result = sum(1, 2);
-alert( result );
-Experience
-Education
-University: Belarusian National Technical University, Civil Engineering major
-Courses:
-CS50 lectures
-FreeCodeCamp
-HTML Academy
-English
-A2 (I had been practicing English, when I worked in the USA as an exchange student)
+## Code Example
+```
+function filter_list(l) {
+  // Return a new array with the strings filtered out
+  const array = [];
+  for (let i = 0; i !== l.length; i++) {
+    if (typeof l[i] === 'number') {
+      array.push(l[i]);
+    }
+  }
+  return array;
+}
+```
+
+## Education
+University: North Caucasus Federal University, Chemical Engineer Technologist
+
+
+## Courses:
+[HTML Academy](https://htmlacademy.ru/)
+
+## English
+C1 (Advanced)
+[Efset](https://www.efset.org/cert/2XKKJ5)
