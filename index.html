@@ -25,18 +25,18 @@
         </nav>
     </div>
 </header>
-<main>
-    <div class="container">
-        <section>
-            <img src="avatar.jpg" width="100" alt="Avatar">
-            <div>
+<main class="main">
+    <div class="container main__container">
+        <section class="profile">
+            <img src="avatar.jpg" width="100" height="133" alt="Avatar">
+            <div class="profile__caption">
                 <h1>Marat Mizitov</h1>
                 <b>Junior Front-End Developer</b>
             </div>
         </section>
-        <section id="contacts">
+        <section class="main__item contacts" id="contacts">
             <h2>Contacts</h2>
-            <ul>
+            <ul class="contacts__list">
                 <li>Location: Volgograd, Russia</li>
                 <li>Email:
                     <a class="contacts__mail" href="mailto:marat10008@gmail.com"
@@ -51,15 +51,15 @@
                 <li>Discord: Marat#2357</li>
             </ul>
         </section>
-        <section id="about">
+        <section class="main__item" id="about">
             <h2>About Me</h2>
             <p>Fast learner, hard worker and team player who is proficient at a basic level in an array of scripting
                 languages and Web tools. I am reliable and dependable and often seek new responsibilities within a wide
                 range of employment areas.</p>
         </section>
-        <section id="skills">
+        <section class="skills main__item" id="skills">
             <h2>Skills</h2>
-            <ul>
+            <ul class="skills__list">
                 <li>HTML5, CSS3</li>
                 <li>SASS</li>
                 <li>JavaScript (Basic)</li>
@@ -69,12 +69,13 @@
                 <li>Adobe Photoshop, Figma</li>
             </ul>
         </section>
-        <section id="code">
+        <section class="code main__item" id="code">
             <h2>Code Example</h2>
-            <pre>
+            <pre class="code__pre">
                 <code>
 function filter_list(l) {
-    // Return a new array with the strings filtered out
+    // Return a new array with the strings
+       filtered out
     const array = [];
     for (let i = 0; i !== l.length; i++) {
         if (typeof l[i] === 'number') {
@@ -86,18 +87,18 @@ function filter_list(l) {
                 </code>
             </pre>
         </section>
-        <section id="education">
+        <section class="main__item" id="education">
             <h2>Education</h2>
             <span>North Caucasus Federal University</span>
         </section>
-        <section id="courses">
+        <section class="main__item" id="courses">
             <h2>Courses</h2>
             <a href="https://htmlacademy.ru/profile/id606021">HTML Academy</a>
         </section>
-        <section id="english">
+        <section class="main__item" id="english">
             <h2>English</h2>
             <span>C1 (Advanced)</span>
-            <a href="https://www.efset.org/cert/2XKKJ5">Efset</a>
+            <a href="https://www.efset.org/cert/2XKKJ5">EF SET</a>
         </section>
     </div>
 </main>
