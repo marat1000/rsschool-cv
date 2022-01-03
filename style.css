@@ -84,3 +84,22 @@ img {
     color: #ffffff;
 }
 
+.footer {
+    padding: 30px 0;
+    background-color: #3d5247;
+    color: #ffffff;
+}
+
+.footer__inner {
+    display: flex;
+}
+
+.footer__github {
+    margin-left: 30px;
+    color: #ffffff;
+}
+
+.footer__rs-link {
+    margin-left: auto;
+}
+
