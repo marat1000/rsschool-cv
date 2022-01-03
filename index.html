@@ -2,9 +2,81 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Title</title>
+    <meta http-equiv="x-ua-compatible" content="ie=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CV</title>
+    <link rel="preload" href="fonts/Roboto-Medium.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="preload" href="fonts/Roboto-Bold.woff2" as="font" type="font/woff2" crossorigin>
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
-
+<header>
+    <h1>Marat Mizitov</h1>
+</header>
+<main>
+    <section>
+        <h2>Contacts</h2>
+        <ul>
+            <li>Location: Volgograd, Russia</li>
+            <li>Email:
+                <a class="contacts__mail" href="mailto:marat10008@gmail.com"
+                   aria-label="E-mail">marat10008@gmail.com</a>
+            </li>
+            <li>GitHub:
+                <a href="https://github.com/marat1000">marat1000</a>
+            </li>
+            <li>Telegram: @Marat10008</li>
+        </ul>
+    </section>
+    <section>
+        <h2>About Me</h2>
+        <p>Fast learner, hard worker and team player who is proficient at a basic level in an array of scripting
+            languages and Web tools. I am reliable and dependable and often seek new responsibilities within a wide
+            range of employment areas.</p>
+    </section>
+    <section>
+        <h2>Skills</h2>
+        <ul>
+            <li>HTML5, CSS3</li>
+            <li>SASS</li>
+            <li>JavaScript (Basic)</li>
+            <li>PHP (Basic)</li>
+            <li>Oberon (Basic)</li>
+            <li>Git</li>
+            <li>Adobe Photoshop, Figma</li>
+        </ul>
+    </section>
+    <section>
+        <h2>Code Example</h2>
+        <pre>
+            <code>
+function filter_list(l) {
+    // Return a new array with the strings filtered out
+    const array = [];
+    for (let i = 0; i !== l.length; i++) {
+        if (typeof l[i] === 'number') {
+            array.push(l[i]);
+        }
+    }
+    return array;
+}
+            </code>
+        </pre>
+    </section>
+    <section>
+        <h2>Education</h2>
+        <span>North Caucasus Federal University</span>
+    </section>
+    <section>
+        <h2>Courses</h2>
+        <a href="https://htmlacademy.ru/profile/id606021">HTML Academy</a>
+    </section>
+    <section>
+        <h2>English</h2>
+        <span>C1 (Advanced)</span>
+        <a href="https://www.efset.org/cert/2XKKJ5">Efset</a>
+    </section>
+</main>
+<footer></footer>
 </body>
 </html>

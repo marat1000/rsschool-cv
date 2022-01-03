@@ -35,7 +35,6 @@ function filter_list(l) {
 ## Education
 University: North Caucasus Federal University, Chemical Engineer Technologist
 
-
 ## Courses:
 [HTML Academy](https://htmlacademy.ru/profile/id606021)
 
