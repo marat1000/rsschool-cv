@@ -10,46 +10,69 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<header>
-    <h1>Marat Mizitov</h1>
+<header class="header">
+    <div class="container">
+        <nav class="nav">
+            <ul class="nav__list">
+                <li class="nav__item"><a href="#contacts" class="nav__link">Contacts</a></li>
+                <li class="nav__item"><a href="#about" class="nav__link">About Me</a></li>
+                <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                <li class="nav__item"><a href="#code" class="nav__link">Code</a></li>
+                <li class="nav__item"><a href="#education" class="nav__link">Education</a></li>
+                <li class="nav__item"><a href="#courses" class="nav__link">Courses</a></li>
+                <li class="nav__item"><a href="#english" class="nav__link">English</a></li>
+            </ul>
+        </nav>
+    </div>
 </header>
 <main>
-    <section>
-        <h2>Contacts</h2>
-        <ul>
-            <li>Location: Volgograd, Russia</li>
-            <li>Email:
-                <a class="contacts__mail" href="mailto:marat10008@gmail.com"
-                   aria-label="E-mail">marat10008@gmail.com</a>
-            </li>
-            <li>GitHub:
-                <a href="https://github.com/marat1000">marat1000</a>
-            </li>
-            <li>Telegram: @Marat10008</li>
-        </ul>
-    </section>
-    <section>
-        <h2>About Me</h2>
-        <p>Fast learner, hard worker and team player who is proficient at a basic level in an array of scripting
-            languages and Web tools. I am reliable and dependable and often seek new responsibilities within a wide
-            range of employment areas.</p>
-    </section>
-    <section>
-        <h2>Skills</h2>
-        <ul>
-            <li>HTML5, CSS3</li>
-            <li>SASS</li>
-            <li>JavaScript (Basic)</li>
-            <li>PHP (Basic)</li>
-            <li>Oberon (Basic)</li>
-            <li>Git</li>
-            <li>Adobe Photoshop, Figma</li>
-        </ul>
-    </section>
-    <section>
-        <h2>Code Example</h2>
-        <pre>
-            <code>
+    <div class="container">
+        <section>
+            <img src="avatar.jpg" width="100" alt="Avatar">
+            <div>
+                <h1>Marat Mizitov</h1>
+                <b>Junior Front-End Developer</b>
+            </div>
+        </section>
+        <section id="contacts">
+            <h2>Contacts</h2>
+            <ul>
+                <li>Location: Volgograd, Russia</li>
+                <li>Email:
+                    <a class="contacts__mail" href="mailto:marat10008@gmail.com"
+                       aria-label="E-mail">marat10008@gmail.com</a>
+                </li>
+                <li>GitHub:
+                    <a href="https://github.com/marat1000">marat1000</a>
+                </li>
+                <li>Telegram:
+                    <a href="https://t.me/Marat10008">@Marat10008</a>
+                </li>
+                <li>Discord: Marat#2357</li>
+            </ul>
+        </section>
+        <section id="about">
+            <h2>About Me</h2>
+            <p>Fast learner, hard worker and team player who is proficient at a basic level in an array of scripting
+                languages and Web tools. I am reliable and dependable and often seek new responsibilities within a wide
+                range of employment areas.</p>
+        </section>
+        <section id="skills">
+            <h2>Skills</h2>
+            <ul>
+                <li>HTML5, CSS3</li>
+                <li>SASS</li>
+                <li>JavaScript (Basic)</li>
+                <li>PHP (Basic)</li>
+                <li>Oberon (Basic)</li>
+                <li>Git</li>
+                <li>Adobe Photoshop, Figma</li>
+            </ul>
+        </section>
+        <section id="code">
+            <h2>Code Example</h2>
+            <pre>
+                <code>
 function filter_list(l) {
     // Return a new array with the strings filtered out
     const array = [];
@@ -60,23 +83,26 @@ function filter_list(l) {
     }
     return array;
 }
-            </code>
-        </pre>
-    </section>
-    <section>
-        <h2>Education</h2>
-        <span>North Caucasus Federal University</span>
-    </section>
-    <section>
-        <h2>Courses</h2>
-        <a href="https://htmlacademy.ru/profile/id606021">HTML Academy</a>
-    </section>
-    <section>
-        <h2>English</h2>
-        <span>C1 (Advanced)</span>
-        <a href="https://www.efset.org/cert/2XKKJ5">Efset</a>
-    </section>
+                </code>
+            </pre>
+        </section>
+        <section id="education">
+            <h2>Education</h2>
+            <span>North Caucasus Federal University</span>
+        </section>
+        <section id="courses">
+            <h2>Courses</h2>
+            <a href="https://htmlacademy.ru/profile/id606021">HTML Academy</a>
+        </section>
+        <section id="english">
+            <h2>English</h2>
+            <span>C1 (Advanced)</span>
+            <a href="https://www.efset.org/cert/2XKKJ5">Efset</a>
+        </section>
+    </div>
 </main>
-<footer></footer>
+<footer>
+    <div class="container"></div>
+</footer>
 </body>
 </html>
