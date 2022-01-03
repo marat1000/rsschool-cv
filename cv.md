@@ -34,11 +34,11 @@ function filter_list(l) {
 ```
 
 ## Education
-University: North Caucasus Federal University, Chemical Engineer Technologist
+University: North Caucasus Federal University
 
 ## Courses:
 [HTML Academy](https://htmlacademy.ru/profile/id606021)
 
 ## English
 C1 (Advanced)
-[Efset](https://www.efset.org/cert/2XKKJ5)
+[EF SET](https://www.efset.org/cert/2XKKJ5)
