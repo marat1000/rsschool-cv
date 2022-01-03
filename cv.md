@@ -4,7 +4,8 @@
 **Location:** Volgograd, Russia \
 **Email:** marat10008@gmail.com \
 **GitHub:** [marat1000](https://github.com/marat1000) \
-**Telegram:** @Marat10008
+**Telegram:** [@Marat10008](https://t.me/Marat10008) \
+**Discord:** Marat#2357 (Marat(@marat1000))
 
 ## About Me
 Fast learner, hard worker and team player who is proficient at a basic level in an array of scripting languages and Web tools. I am reliable and dependable and often seek new responsibilities within a wide range of employment areas.
