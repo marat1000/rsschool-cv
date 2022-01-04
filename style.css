@@ -157,6 +157,10 @@ h1 {
     margin-bottom: -50px;
 }
 
+.code__pre code {
+    white-space: pre-wrap;
+}
+
 .footer {
     padding: 30px 0;
     background-color: #3d5247;
