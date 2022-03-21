@@ -1,7 +1,7 @@
 # Marat Mizitov
 
 ## Contacts
-**Location:** Volgograd, Russia \
+**Location:** Krasnodar, Russia \
 **Email:** marat10008@gmail.com \
 **GitHub:** [marat1000](https://github.com/marat1000) \
 **Telegram:** [@Marat10008](https://t.me/Marat10008) \
@@ -21,15 +21,27 @@ Fast learner, hard worker and team player who is proficient at a basic level in 
 
 ## Code Example
 ```
-function filter_list(l) {
-  // Return a new array with the strings filtered out
-  const array = [];
-  for (let i = 0; i !== l.length; i++) {
-    if (typeof l[i] === 'number') {
-      array.push(l[i]);
-    }
+/* Given a non-negative integer n,
+write a function to_binary/ToBinary
+which returns that number in a binary format. */
+
+function toBinary(n) {
+  let rest = n;
+  let binary = 0;
+  let power = 0;
+  while (n > (2 ** power)) {
+    power++;
   }
-  return array;
+  while (power !== -1) {
+    if (rest - (2 ** power) > -1) {
+      binary = binary * 10 + 1;
+      rest = rest - (2 ** power);
+    } else {
+      binary = binary * 10;
+    }
+    power--;
+  }
+  return binary;
 }
 ```
 
