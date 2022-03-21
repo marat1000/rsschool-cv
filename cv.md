@@ -17,6 +17,7 @@ Fast learner, hard worker and team player who is proficient at a basic level in 
 * PHP (Basic)
 * Oberon (Basic)
 * Git
+* Gulp
 * Adobe Photoshop, Figma
 
 ## Code Example
