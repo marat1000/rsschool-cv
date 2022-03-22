@@ -37,7 +37,7 @@
         <section class="main__item contacts" id="contacts">
             <h2>Contacts</h2>
             <ul class="contacts__list">
-                <li>Location: Volgograd, Russia</li>
+                <li>Location: Krasnodar, Russia</li>
                 <li>Email:
                     <a class="contacts__mail" href="mailto:marat10008@gmail.com"
                        aria-label="E-mail">marat10008@gmail.com</a>
@@ -73,16 +73,27 @@
             <h2>Code Example</h2>
             <pre class="code__pre">
                 <code>
-function filter_list(l) {
-    // Return a new array with the strings
-       filtered out
-    const array = [];
-    for (let i = 0; i !== l.length; i++) {
-        if (typeof l[i] === 'number') {
-            array.push(l[i]);
-        }
+/* Given a non-negative integer n,
+write a function to_binary/ToBinary
+which returns that number in a binary format. */
+
+function toBinary(n) {
+  let rest = n;
+  let binary = 0;
+  let power = 0;
+  while (n > (2 ** power)) {
+    power++;
+  }
+  while (power !== -1) {
+    if (rest - (2 ** power) > -1) {
+      binary = binary * 10 + 1;
+      rest = rest - (2 ** power);
+    } else {
+      binary = binary * 10;
     }
-    return array;
+    power--;
+  }
+  return binary;
 }
                 </code>
             </pre>
