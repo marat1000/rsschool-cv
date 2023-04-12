@@ -75,27 +75,8 @@
             <pre class="code__pre">
                 <code>
 /* Given a non-negative integer n,
-write a function to_binary/ToBinary
-which returns that number in a format. */
-
-function toBinary(n) {
-  let rest = n;
-  let binary = 0;
-  let power = 0;
-  while (n > (2 ** power)) {
-    power++;
-  }
-  while (power !== -1) {
-    if (rest - (2 ** power) > -1) {
-      binary = binary * 10 + 1;
-      rest = rest - (2 ** power);
-    } else {
-      binary = binary * 10;
-    }
-    power--;
-  }
-  return binary;
-}
+write a function decimalToBase
+which returns that number in a base format. */
 
 function decimalToBase(n: number, base: number): number {
   // precondition Q: n >= 0 AND 2 >= base AND base <= 10;
