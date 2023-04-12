@@ -13,11 +13,11 @@ Fast learner, hard worker and team player who is proficient at a basic level in 
 ## Skills
 * HTML5, CSS3
 * SASS
-* JavaScript (Basic)
+* JavaScript
+* TypeScript
 * PHP (Basic)
 * Oberon (Basic)
 * Git
-* Gulp
 * Adobe Photoshop, Figma
 
 ## Code Example
